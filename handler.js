@@ -37,7 +37,7 @@ module.exports = {
         global.colong2 = 'bot wa'
         global.kontak2 = [
         ['6281319339702', 'olvv', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true],
-        ['6285713137903', await this.getName('6285713137903@s.whatsapp.net'), 'press', 'https://youtube.com', true], 
+        ['6285713137903', await this.getName('6281319339702@s.whatsapp.net'), 'press', 'https://youtube.com', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
